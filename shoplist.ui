@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ShopList</class>
+ <widget class="QWidget" name="ShopList">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>323</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>店铺编辑</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <spacer name="verticalSpacer_2">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item>
+    <widget class="QComboBox" name="cmb_position">
+     <item>
+      <property name="text">
+       <string>二餐一楼</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>二餐二楼</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>三餐一楼</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>三餐二楼</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>三餐三楼</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>外卖</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item>
+    <spacer name="verticalSpacer_4">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item>
+    <widget class="QComboBox" name="cmb_R2F1">
+     <item>
+      <property name="text">
+       <string>水果捞（二餐一楼）</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>牛杂面（二餐一楼）</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>椒上瘾（二餐一楼）</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>披萨（二餐一楼）</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>撸串（二餐一楼）</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item>
+    <widget class="QComboBox" name="cmb_R2F2">
+     <item>
+      <property name="text">
+       <string>麻辣香锅（二餐二楼）</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>蒸饭（二餐二楼）</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>小锅焖面（二餐二楼）</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>土豆烧肉饭（二餐二楼）</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item>
+    <widget class="QComboBox" name="cmb_R3F1">
+     <item>
+      <property name="text">
+       <string>铁板烤肉饭（三餐一楼）</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>盖饭（三餐一楼）</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>饭包（三餐一楼）</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>餐盘（三餐一楼）</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item>
+    <widget class="QComboBox" name="cmb_R3F2">
+     <item>
+      <property name="text">
+       <string>煎饼果子（三餐二楼）</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>手抓饼（三餐二楼）</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>炒冷面（三餐二楼）</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>泡面（三餐二楼）</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item>
+    <widget class="QComboBox" name="cmb_R3F3">
+     <item>
+      <property name="text">
+       <string>铁板煎肉饭（三餐三楼）</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>千味面（三餐三楼）</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>烤肉拌饭（三餐三楼）</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>汉堡（三餐三楼）</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item>
+    <widget class="QComboBox" name="cmb_WM">
+     <item>
+      <property name="text">
+       <string>肯德基（外卖）</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>汉堡王（外卖）</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>炸鸡（外卖）</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>张亮（外卖）</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>汤火功夫（外卖）</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>鸡公煲（外卖）</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item>
+    <spacer name="verticalSpacer_3">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QLabel" name="lab_AddI">
+         <property name="text">
+          <string>添加店铺</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="lineEdit_AddI"/>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_AddI">
+       <property name="text">
+        <string>添加</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QPushButton" name="btn_del">
+     <property name="text">
+      <string>删除当前店铺</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
